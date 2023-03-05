@@ -1,3 +1,6 @@
+Проект можно запустить скачав репозиторий и введя команду npm start
+Деплой проекта:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

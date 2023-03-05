@@ -1,0 +1,68 @@
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: var(--cellWidth);
+  height: var(--cellWidth);
+
+  background-color: lightgray;
+  border: 1px solid var(--transperentGray);
+
+  font-family: 'numericFont', sans-serif;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.closed,
+.flagged {
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  border-right: 4px solid gray;
+  border-bottom: 4px solid gray;
+}
+
+.closed:hover {
+  border-top: 6px solid gray;
+  border-left: 6px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+
+  transition: border 0.1s ease-in-out;
+}
+
+.exploded {
+  background-color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.darkblue {
+  color: darkblue;
+}
+
+.brown {
+  color: brown;
+}
+
+.cyan {
+  color: cyan;
+}
+
+.dark {
+  color: black;
+}
+
+.gray {
+  color: gray;
+}
