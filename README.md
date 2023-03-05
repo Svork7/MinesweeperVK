@@ -1,5 +1,6 @@
 Проект можно запустить скачав репозиторий и введя команду npm start
 Деплой проекта:
+https://minesweeper-vk-brown.vercel.app/
 
 # Getting Started with Create React App
 
